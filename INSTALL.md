@@ -26,13 +26,14 @@ Windows 11 users already have this. Windows 10 users can install from:
 ```json
 {
     "commandline": "powershell -Command opencode",
-    "guid": "{a7b3c4d5-e6f7-8901-2345-6789abcdef01}",
+    "guid": "{generate-a-guid}",
     "name": "OpenCode"
 }
 ```
 
 **Important Notes:**
 - The `name` field MUST be exactly `"OpenCode"` (case-sensitive)
+- Generate a GUID by running `[guid]::NewGuid()` in PowerShell, then paste it between the braces
 - Adjust `commandline` for your shell: `powershell -Command opencode`, `cmd /k opencode`, or `nu -c opencode`
 
 6. Save the file and close the editor
