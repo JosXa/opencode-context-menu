@@ -44,7 +44,7 @@ Add "Open in OpenCode" to Windows Explorer's right-click context menu for quick 
    powershell -ExecutionPolicy Bypass -File .\Add-OpenCodeContextMenu.ps1
    ```
 
-   Or if you have gsudo:
+   Or with [gsudo](https://github.com/gerardog/gsudo):
 
    ```powershell
    gsudo powershell -ExecutionPolicy Bypass -File .\Add-OpenCodeContextMenu.ps1
@@ -62,7 +62,7 @@ Run the removal script as Administrator:
 powershell -ExecutionPolicy Bypass -File .\Remove-OpenCodeContextMenu.ps1
 ```
 
-Or with gsudo:
+Or with [gsudo](https://github.com/gerardog/gsudo):
 
 ```powershell
 gsudo powershell -ExecutionPolicy Bypass -File .\Remove-OpenCodeContextMenu.ps1

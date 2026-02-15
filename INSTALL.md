@@ -71,7 +71,7 @@ The folder should contain:
    powershell -ExecutionPolicy Bypass -File .\Add-OpenCodeContextMenu.ps1
    ```
 
-### Option B: Using gsudo (if installed)
+### Option B: Using [gsudo](https://github.com/gerardog/gsudo) (if installed)
 
 If you have gsudo installed:
 ```powershell
