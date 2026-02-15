@@ -25,29 +25,15 @@ Windows 11 users already have this. Windows 10 users can install from:
 
 ```json
 {
-    "commandline": "nu -c opencode",
+    "commandline": "powershell -Command opencode",
     "guid": "{a7b3c4d5-e6f7-8901-2345-6789abcdef01}",
-    "hidden": false,
-    "icon": "✨",
-    "name": "OpenCode",
-    "font": {
-        "face": "FiraCode Nerd Font"
-    }
+    "name": "OpenCode"
 }
 ```
 
 **Important Notes:**
 - The `name` field MUST be exactly `"OpenCode"` (case-sensitive)
-- The `guid` must be unique. Generate a new one at https://guidgenerator.com
-- Adjust `commandline` based on your shell preference:
-
-**Shell Options:**
-
-| Shell | Command |
-|-------|---------|
-| NuShell | `"nu -c opencode"` |
-| PowerShell | `"powershell -Command opencode"` |
-| CMD | `"cmd /k opencode"` |
+- Adjust `commandline` for your shell: `powershell -Command opencode`, `cmd /k opencode`, or `nu -c opencode`
 
 6. Save the file and close the editor
 7. Verify the profile works by running in CMD or PowerShell:

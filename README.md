@@ -26,23 +26,13 @@ Add "Open in OpenCode" to Windows Explorer's right-click context menu for quick 
 
    ```json
    {
-       "commandline": "nu -c opencode",
+       "commandline": "powershell -Command opencode",
        "guid": "{a7b3c4d5-e6f7-8901-2345-6789abcdef01}",
-       "hidden": false,
-       "icon": "✨",
-       "name": "OpenCode",
-       "font": {
-           "face": "FiraCode Nerd Font"
-       }
+       "name": "OpenCode"
    }
    ```
 
-   **Shell variations:**
-   - **NuShell**: `"commandline": "nu -c opencode"`
-   - **PowerShell**: `"commandline": "powershell -Command opencode"`
-   - **CMD**: `"commandline": "cmd /k opencode"`
-
-   The `guid` must be unique. Generate one at https://guidgenerator.com if needed.
+   Adjust `commandline` for your shell: `powershell -Command opencode`, `cmd /k opencode`, or `nu -c opencode`.
 
 2. **Run the installation script**
 
