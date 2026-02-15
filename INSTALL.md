@@ -9,13 +9,19 @@ Complete step-by-step instructions for installing the OpenCode Context Menu on W
 - OpenCode CLI installed and working
 - Administrator privileges
 
-## Step 1: Install Windows Terminal (if needed)
+## Step 1: Clone the Repository
+
+```
+git clone https://github.com/JosXa/opencode-context-menu.git
+```
+
+## Step 2: Install Windows Terminal (if needed)
 
 Windows 11 users already have this. Windows 10 users can install from:
 - Microsoft Store: Search for "Windows Terminal"
 - Or download from: https://github.com/microsoft/terminal/releases
 
-## Step 2: Configure Windows Terminal Profile
+## Step 3: Configure Windows Terminal Profile
 
 1. Open Windows Terminal
 2. Press `Ctrl+,` to open settings (or click the dropdown arrow → Settings)
@@ -42,16 +48,6 @@ Windows 11 users already have this. Windows 10 users can install from:
    wt.exe -p "OpenCode"
    ```
    This should open Windows Terminal with OpenCode running.
-
-## Step 3: Download the Scripts
-
-Clone or download this repository to a location on your computer.
-
-The folder should contain:
-- `Add-OpenCodeContextMenu.ps1`
-- `Remove-OpenCodeContextMenu.ps1`
-- `opencode-icon.ico`
-- `README.md`
 
 ## Step 4: Run the Installation Script
 
