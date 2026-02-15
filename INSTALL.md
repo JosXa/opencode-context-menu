@@ -45,10 +45,7 @@ Windows 11 users already have this. Windows 10 users can install from:
 
 ## Step 3: Download the Scripts
 
-Clone or download this repository to a location on your computer. For example:
-```
-D:\tools\opencode-context-menu\
-```
+Clone or download this repository to a location on your computer.
 
 The folder should contain:
 - `Add-OpenCodeContextMenu.ps1`
@@ -62,10 +59,7 @@ The folder should contain:
 
 1. Right-click the Windows Start button
 2. Select "Windows Terminal (Admin)" or "PowerShell (Admin)"
-3. Navigate to the folder containing the scripts:
-   ```powershell
-   cd "D:\tools\opencode-context-menu"
-   ```
+3. Navigate to the folder containing the scripts
 4. Run the installation script:
    ```powershell
    powershell -ExecutionPolicy Bypass -File .\Add-OpenCodeContextMenu.ps1
